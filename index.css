@@ -10,9 +10,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 1rem;
+    min-height: 100svh;
     background-color: #e6f2e6;
+    padding: 1rem;
 }
 
 .container {
@@ -49,10 +49,11 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+    touch-action: manipulation;
 }
 
 .buttons button {
-    padding: 0.8rem 1.5rem;
+    padding: 1rem 1.5rem;
     font-size: clamp(0.9rem, 2vw, 1.1rem);
     border: none;
     border-radius: 8px;
